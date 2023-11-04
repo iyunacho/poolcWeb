@@ -1,0 +1,19 @@
+h2 {
+    color: brown;
+}
+
+#second-subtitle{
+    color: yellow;
+}
+
+.blue{
+    color:blue;
+}
+
+#second-section{
+    background-color: lightpink;
+}
+
+#second-subtitle > span{
+    color:lightgreen;
+}

@@ -1,0 +1,19 @@
+span{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    
+    background-color :green;
+    width: 100px
+}
+
+#section-1{
+    position:sticky;
+    top:30px;
+
+    background-color: gray;
+
+    border: 2px solid blue;
+    margin: 20px;
+    padding: 20px;
+}

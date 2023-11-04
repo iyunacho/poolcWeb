@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@900&family=Raleway:wght@900&display=swap');
+body{
+    font-family: Arial;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0px;
+}
+nav ul{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: -.15rem;
+    box-shadow: 0px 5px 7px -1px rgba(128, 128, 128, 0.2);
+    margin: 0px;
+    padding: 0px 1.5rem;
+}
+nav img{
+    width: 2rem;
+}
+#heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 0px;
+}
+h1{
+    text-align: center;
+    font-size: 4.5rem;
+    letter-spacing: -0.3rem;
+    font-weight: 900;
+    margin: 0px;
+}
+div a{
+    text-align: center;
+    font-size: 1.4em;
+    color: #1b48c4;
+    letter-spacing: 0.1rem;
+    font-weight: 900;
+}
+#items ul{
+    display: flex;
+    justify-content: center;
+    border-top: thick solid black;
+    border-bottom: medium solid black;
+}
+#items img{
+    width: 60px;
+    margin: 0.75rem;
+}
+#chartNo1{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.5rem 0px;
+}
+#chartNo1 > div{
+    display: flex;
+    align-items: center;
+}
+#chartNo1 #rank{
+    font-size: 120px;
+    font-weight: 900;
+}
+#chartNo1 p{
+    font-size: 20px;
+}
+#chartNo1 img{
+    width: 150px;
+}
+#rankings #buttons{
+    display: flex;
+    justify-content: space-around;
+}
+#rankings button{
+    border: 0;
+    background-color: transparent;
+    letter-spacing: 0.05rem;
+    font-weight: 900;
+    color: gray;
+    margin-bottom: 1.5rem;
+}
+#rankings #stats{
+    color: #1b48c4;
+    text-decoration: underline #1b48c4 0.4rem;
+}
+#rankings #statsInfo div{
+    width: 300px;
+    border-right : 2px solid rgba(128, 128, 128, 0.2);
+}
+#rankings #statsInfo div:last-of-type{
+    border: none;
+}
+#rankings #statsInfo{
+    font-size: 0.85rem;
+    font-weight: 900;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#rankings span{
+    font-size: 2rem;
+}
